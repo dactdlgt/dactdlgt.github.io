@@ -1,0 +1,971 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="dactdlgt.GitHub.io : Website Đồ Án Cấu trúc dữ liệu và giải thuật">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Cấu trúc dữ liệu và giải thuật</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/DACTDLGT">View on GitHub</a>
+
+          <h1 id="project_title">Đồ Án Cấu trúc dữ liệu và giải thuật</h1>
+          <h2 id="project_tagline">Website học tập Khoa CNTT</h2>
+
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h3>
+<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a>Chào mừng các bạn sinh viên khóa 8 !</h3>
+
+<p>Trong niên khóa này tại đây chúng ta sẽ nghiên cứu môn "Cấu trúc dữ liệu và giải thuật".</p>
+
+<h3>
+<a id="creating-pages-manually" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span class="octicon octicon-link"></span></a>Mô tả các nội dung môn học Cấu trúc dữ liệu và giải thuật</h3>
+
+<p>Môn học đề cập đến các vấn đề: giải thuật, phân tích độ phức tạp giải thuật, cấu trúc dữ liệu trừu tương và cài đặt trong C/C++  các cấu trúc danh sách, ngăn xếp, hàng đợi, cây, đồ thị cùng với thao tác trên các cấu trúc dữ liệu trên. Về giải thuật chú trọng các giải thuật tìm kiếm và sắp xếp cùng với đánh giá và phân tích tốc độ các giải thuật đó.</p>
+
+<h3>
+<a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span class="octicon octicon-link"></span></a>Nhiệm vụ của sinh viên</h3>
+
+<p><ul>
+<li> Dự lớp: Tối thiểu có mặt 80% giờ học 
+</li>
+<li> Thực hành:Làm đầy đủ  các  bài tập thực hành được giao
+</li>
+<li> Đọc  tài liệu trước khi lên lớp
+</li>
+<li> Đọc thêm tài liệu mà giáo viên yêu cầu
+</li>
+</ul>
+</p>
+
+<h3>
+<a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span class="octicon octicon-link"></span></a>Tài liệu tham khảo</h3>
+
+<p>
+<ul>
+<li>[1] Đinh Mạnh Tường. Cấu trúc dữ liệu và Thuật toán: Cách tiếp cận định hướng đối tượng sử dụng C++. NXB DHQGHN.Hà Nội 2003. 
+</li>
+<li>[2] Robert L. Kruse, Alexander J. Ryba, Data structures and program design in  C++, Prentice-Hall  2000
+df)
+</li>
+<li>[3] Cplusplus_2011, http://www.cplusplus.com
+</li>
+</ul>
+</p>
+<p>Tải về: Sách tham khảo <br/> 
+<a href="https://www.dropbox.com/s/r8de1fr0vqdpesg/SachThamKhao.rar?dl=0"> tại đây.</a></p>
+<h3>
+<a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span class="octicon octicon-link"></span></a>Nội dung chi tiết và bài giảng</h3>
+<p>
+<div class=WordSection1>
+  <table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width=648
+ style='width:6.75in;margin-left:5.4pt;border-collapse:collapse;border:none;
+ mso-border-alt:solid windowtext .5pt;mso-yfti-tbllook:480;mso-padding-alt:
+ 0in 5.4pt 0in 5.4pt;mso-border-insideh:.5pt solid windowtext;mso-border-insidev:
+ .5pt solid windowtext'>
+ <thead>
+  <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+   <td width=80 style='width:60.0pt;border:solid windowtext 1.0pt;mso-border-alt:
+   solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+   <p class=MsoNormal align=center style='margin-top:6.0pt;text-align:center'><b
+   style='mso-bidi-font-weight:normal'><span lang=SV style='font-size:13.0pt;
+   mso-bidi-font-size:12.0pt;font-family:"Times New Roman",serif;mso-fareast-font-family:
+   "Arial Unicode MS";mso-ansi-language:SV'>Tu&#7847;n<o:p></o:p></span></b></p>
+   </td>
+   <td width=256 style='width:192.0pt;border:solid windowtext 1.0pt;border-left:
+   none;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+   padding:0in 5.4pt 0in 5.4pt'>
+   <p class=MsoNormal align=center style='margin-top:6.0pt;text-align:center;
+   mso-line-height-alt:10.0pt;mso-layout-grid-align:none;text-autospace:none'><b><span
+   lang=SV style='font-size:13.0pt;mso-bidi-font-size:12.0pt;font-family:"Times New Roman",serif;
+   mso-fareast-font-family:"Arial Unicode MS";color:black;mso-ansi-language:
+   SV'>N&#7897;i dung<o:p></o:p></span></b></p>
+   </td>
+   <td width=168 style='width:1.75in;border:solid windowtext 1.0pt;border-left:
+   none;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+   padding:0in 5.4pt 0in 5.4pt'>
+   <p class=MsoNormal align=center style='margin-top:6.0pt;text-align:center;
+   mso-layout-grid-align:none;text-autospace:none'><b><span lang=SV
+   style='font-size:13.0pt;mso-bidi-font-size:12.0pt;font-family:"Times New Roman",serif;
+   mso-fareast-font-family:"Arial Unicode MS";color:black;mso-ansi-language:
+   SV'>Tài li&#7879;u &#273;&#7885;c tr&#432;&#7899;c<o:p></o:p></span></b></p>
+   </td>
+   <td width=144 style='width:1.5in;border:solid windowtext 1.0pt;border-left:
+   none;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+   padding:0in 5.4pt 0in 5.4pt'>
+   <p class=MsoNormal align=center style='margin-top:6.0pt;text-align:center;
+   line-height:150%;mso-layout-grid-align:none;text-autospace:none'><b><span
+   lang=SV style='font-size:13.0pt;mso-bidi-font-size:12.0pt;line-height:150%;
+   font-family:"Times New Roman",serif;mso-fareast-font-family:"Arial Unicode MS";
+   color:black;mso-ansi-language:SV'>Bài t&#7853;p/ ki&#7875;m tra<o:p></o:p></span></b></p>
+   </td>
+  </tr>
+ </thead>
+ <tr style='mso-yfti-irow:1'>
+  <td width=80 valign=top style='width:60.0pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='margin-top:6.0pt'><span lang=SV style='font-size:
+  13.0pt;mso-bidi-font-size:12.0pt;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Arial Unicode MS";mso-ansi-language:SV'>Tu&#7847;n 1<o:p></o:p></span></p>
+  </td>
+  <td width=256 valign=top style='width:192.0pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;margin-right:-2.85pt;margin-bottom:
+  0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;mso-line-height-alt:
+  10.0pt;mso-layout-grid-align:none;text-autospace:none'><b style='mso-bidi-font-weight:
+  normal'><span lang=SV style='font-size:13.0pt;mso-bidi-font-size:12.0pt;
+  font-family:"Times New Roman",serif;mso-fareast-font-family:"Arial Unicode MS";
+  color:black;letter-spacing:-.5pt;mso-ansi-language:SV'>Ch&#432;&#417;ng 1 : Gi&#7899;i
+  thi&#7879;u môn h&#7885;c<o:p></o:p></span></b></p>
+  <p class=MsoNormal style='margin-top:6.0pt;text-align:justify;mso-line-height-alt:
+  10.0pt;mso-layout-grid-align:none;text-autospace:none'><i style='mso-bidi-font-style:
+  normal'><span lang=SV style='font-size:13.0pt;mso-bidi-font-size:12.0pt;
+  font-family:"Times New Roman",serif;mso-fareast-font-family:"Arial Unicode MS";
+  color:black;mso-ansi-language:SV'>1. Gi&#7843;i m&#7897;t bài toán tin h&#7885;c<o:p></o:p></span></i></p>
+  <p class=MsoNormal style='margin-top:6.0pt;text-align:justify;mso-line-height-alt:
+  10.0pt;mso-layout-grid-align:none;text-autospace:none'><span lang=SV
+  style='font-size:13.0pt;mso-bidi-font-size:12.0pt;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Arial Unicode MS";color:black;mso-ansi-language:
+  SV'><span style='mso-spacerun:yes'>    </span>1.1<span
+  style='mso-spacerun:yes'>  </span>&#272;&#7863;c t&#7843; v&#7845;n &#273;&#7873;<o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-top:6.0pt;text-align:justify;mso-line-height-alt:
+  10.0pt;mso-layout-grid-align:none;text-autospace:none'><span lang=SV
+  style='font-size:13.0pt;mso-bidi-font-size:12.0pt;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Arial Unicode MS";color:black;mso-ansi-language:
+  SV'><span style='mso-spacerun:yes'>    </span>1.2<span
+  style='mso-spacerun:yes'>  </span>Thi&#7871;t k&#7871; c&#7845;u trúc d&#7919;
+  li&#7879;u<o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-top:6.0pt;text-align:justify;mso-line-height-alt:
+  10.0pt;mso-layout-grid-align:none;text-autospace:none'><span lang=SV
+  style='font-size:13.0pt;mso-bidi-font-size:12.0pt;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Arial Unicode MS";color:black;mso-ansi-language:
+  SV'><span style='mso-spacerun:yes'>    </span>1.3<span
+  style='mso-spacerun:yes'>  </span>Thi&#7871;t k&#7871; gi&#7843;i thu&#7853;t<o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-top:6.0pt;text-align:justify;mso-line-height-alt:
+  10.0pt;mso-layout-grid-align:none;text-autospace:none'><span lang=SV
+  style='font-size:13.0pt;mso-bidi-font-size:12.0pt;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Arial Unicode MS";color:black;mso-ansi-language:
+  SV'><span style='mso-spacerun:yes'>    </span>1.4<span
+  style='mso-spacerun:yes'>  </span>Cài &#273;&#7863;t (C++, Java…)<o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-top:6.0pt;text-align:justify;mso-line-height-alt:
+  10.0pt;mso-layout-grid-align:none;text-autospace:none'><span lang=SV
+  style='font-size:13.0pt;mso-bidi-font-size:12.0pt;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Arial Unicode MS";color:black;mso-ansi-language:
+  SV'><span style='mso-spacerun:yes'>    </span>1.5<span
+  style='mso-spacerun:yes'>  </span>Th&#7917; nghi&#7879;m và s&#7917;a l&#7895;i<o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-top:6.0pt;text-align:justify;mso-line-height-alt:
+  10.0pt;mso-layout-grid-align:none;text-autospace:none'><span lang=SV
+  style='font-size:13.0pt;mso-bidi-font-size:12.0pt;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Arial Unicode MS";color:black;mso-ansi-language:
+  SV'><span style='mso-spacerun:yes'>    </span>1.6<span
+  style='mso-spacerun:yes'>  </span>T&#7889;i &#432;u ch&#432;&#417;ng trình<o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-top:6.0pt;text-align:justify;mso-line-height-alt:
+  10.0pt;mso-layout-grid-align:none;text-autospace:none'><i style='mso-bidi-font-style:
+  normal'><span lang=SV style='font-size:13.0pt;mso-bidi-font-size:12.0pt;
+  font-family:"Times New Roman",serif;mso-fareast-font-family:"Arial Unicode MS";
+  color:black;mso-ansi-language:SV'>2.<span style='mso-spacerun:yes'>  </span>Quan
+  h&#7879; gi&#7919;a CTDL và GT<o:p></o:p></span></i></p>
+  <p class=MsoNormal style='margin-top:6.0pt;text-align:justify;mso-line-height-alt:
+  10.0pt;mso-layout-grid-align:none;text-autospace:none'><i style='mso-bidi-font-style:
+  normal'><span lang=SV style='font-size:13.0pt;mso-bidi-font-size:12.0pt;
+  font-family:"Times New Roman",serif;mso-fareast-font-family:"Arial Unicode MS";
+  color:black;mso-ansi-language:SV'>3.<span style='mso-spacerun:yes'>  </span>M&#7897;t
+  s&#7889; &#7913;ng d&#7909;ng CTDL&amp;GT</span></i><span lang=SV
+  style='font-size:13.0pt;mso-bidi-font-size:12.0pt;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Arial Unicode MS";color:black;mso-ansi-language:
+  SV'> <span style='mso-spacerun:yes'>   </span><span
+  style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'>  </span><i
+  style='mso-bidi-font-style:normal'><o:p></o:p></i></span></p>
+  </td>
+  <td width=168 valign=top style='width:1.75in;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;text-align:justify;mso-layout-grid-align:
+  none;text-autospace:none'><span lang=SV style='font-size:13.0pt;mso-bidi-font-size:
+  12.0pt;font-family:"Times New Roman",serif;mso-fareast-font-family:"Arial Unicode MS";
+  color:black;mso-ansi-language:SV;mso-bidi-font-weight:bold'><span
+  style='mso-spacerun:yes'> </span>(Giáo trình [1])<o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-top:6.0pt;text-align:justify;mso-layout-grid-align:
+  none;text-autospace:none'><span lang=SV style='font-size:13.0pt;mso-bidi-font-size:
+  12.0pt;font-family:"Times New Roman",serif;mso-fareast-font-family:"Arial Unicode MS";
+  color:black;mso-ansi-language:SV;mso-bidi-font-weight:bold'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=144 valign=top style='width:1.5in;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;line-height:150%;mso-layout-grid-align:
+  none;text-autospace:none'><span lang=SV style='font-size:13.0pt;mso-bidi-font-size:
+  12.0pt;line-height:150%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+  "Arial Unicode MS";color:black;mso-ansi-language:SV;mso-bidi-font-weight:
+  bold'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:2'>
+  <td width=80 valign=top style='width:60.0pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='margin-top:6.0pt'><span lang=SV style='font-size:
+  13.0pt;mso-bidi-font-size:12.0pt;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Arial Unicode MS";mso-ansi-language:SV'>Tu&#7847;n 2<o:p></o:p></span></p>
+  </td>
+  <td width=256 valign=top style='width:192.0pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;margin-right:-2.85pt;margin-bottom:
+  0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;mso-line-height-alt:
+  10.0pt;mso-layout-grid-align:none;text-autospace:none'><b style='mso-bidi-font-weight:
+  normal'><span lang=SV style='font-size:13.0pt;mso-bidi-font-size:12.0pt;
+  font-family:"Times New Roman",serif;mso-fareast-font-family:"Arial Unicode MS";
+  color:black;letter-spacing:-.5pt;mso-ansi-language:SV'>Ch&#432;&#417;ng 2 : Phân
+  tích thu&#7853;t toán<o:p></o:p></span></b></p>
+  <p class=MsoNormal style='margin-top:6.0pt;margin-right:-2.85pt;margin-bottom:
+  0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;mso-line-height-alt:
+  10.0pt;mso-layout-grid-align:none;text-autospace:none'><i style='mso-bidi-font-style:
+  normal'><span lang=SV style='font-size:13.0pt;mso-bidi-font-size:12.0pt;
+  font-family:"Times New Roman",serif;mso-fareast-font-family:"Arial Unicode MS";
+  color:black;mso-ansi-language:SV'>1. Thu&#7853;t toán<o:p></o:p></span></i></p>
+  <p class=MsoNormal style='margin-top:6.0pt;margin-right:-2.85pt;margin-bottom:
+  0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;mso-line-height-alt:
+  10.0pt;mso-layout-grid-align:none;text-autospace:none'><i style='mso-bidi-font-style:
+  normal'><span lang=SV style='font-size:13.0pt;mso-bidi-font-size:12.0pt;
+  font-family:"Times New Roman",serif;mso-fareast-font-family:"Arial Unicode MS";
+  color:black;mso-ansi-language:SV'>2. &#272;ánh giá thu&#7853;t toán<o:p></o:p></span></i></p>
+  <p class=MsoNormal style='margin-top:6.0pt;margin-right:-2.85pt;margin-bottom:
+  0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;mso-line-height-alt:
+  10.0pt;mso-layout-grid-align:none;text-autospace:none'><i style='mso-bidi-font-style:
+  normal'><span lang=SV style='font-size:13.0pt;mso-bidi-font-size:12.0pt;
+  font-family:"Times New Roman",serif;mso-fareast-font-family:"Arial Unicode MS";
+  color:black;mso-ansi-language:SV'>3. Th&#7901;i gian ch&#7841;y c&#7911;a thu&#7853;t
+  toán<o:p></o:p></span></i></p>
+  <p class=MsoNormal style='margin-top:6.0pt;margin-right:-2.85pt;margin-bottom:
+  0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;mso-line-height-alt:
+  10.0pt;mso-layout-grid-align:none;text-autospace:none'><i style='mso-bidi-font-style:
+  normal'><span lang=SV style='font-size:13.0pt;mso-bidi-font-size:12.0pt;
+  font-family:"Times New Roman",serif;mso-fareast-font-family:"Arial Unicode MS";
+  color:black;mso-ansi-language:SV'>4. &#272;&#7883;nh ngh&#297;a ký hi&#7879;u
+  ô l&#7899;n<o:p></o:p></span></i></p>
+  <p class=MsoNormal style='margin-top:6.0pt;margin-right:-2.85pt;margin-bottom:
+  0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;mso-line-height-alt:
+  10.0pt;mso-layout-grid-align:none;text-autospace:none'><i style='mso-bidi-font-style:
+  normal'><span lang=SV style='font-size:13.0pt;mso-bidi-font-size:12.0pt;
+  font-family:"Times New Roman",serif;mso-fareast-font-family:"Arial Unicode MS";
+  color:black;mso-ansi-language:SV'>6. &#272;ánh giá th&#7901;i gian ch&#7841;y</span></i><b
+  style='mso-bidi-font-weight:normal'><span lang=SV style='font-size:13.0pt;
+  mso-bidi-font-size:12.0pt;font-family:"Times New Roman",serif;mso-fareast-font-family:
+  "Arial Unicode MS";color:black;letter-spacing:-.5pt;mso-ansi-language:SV'><o:p></o:p></span></b></p>
+  </td>
+  <td width=168 valign=top style='width:1.75in;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;text-align:justify;mso-layout-grid-align:
+  none;text-autospace:none'><span lang=SV style='font-size:13.0pt;mso-bidi-font-size:
+  12.0pt;font-family:"Times New Roman",serif;mso-fareast-font-family:"Arial Unicode MS";
+  color:black;mso-ansi-language:SV;mso-bidi-font-weight:bold'>Ch&#432;&#417;ng
+  15<o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-top:6.0pt;text-align:justify;mso-layout-grid-align:
+  none;text-autospace:none'><span lang=SV style='font-size:13.0pt;mso-bidi-font-size:
+  12.0pt;font-family:"Times New Roman",serif;mso-fareast-font-family:"Arial Unicode MS";
+  color:black;mso-ansi-language:SV;mso-bidi-font-weight:bold'>(Giáo trình [1])<o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-top:6.0pt;text-align:justify;mso-layout-grid-align:
+  none;text-autospace:none'><span lang=SV style='font-size:13.0pt;mso-bidi-font-size:
+  12.0pt;font-family:"Times New Roman",serif;mso-fareast-font-family:"Arial Unicode MS";
+  color:black;mso-ansi-language:SV;mso-bidi-font-weight:bold'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=144 valign=top style='width:1.5in;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;line-height:150%;mso-layout-grid-align:
+  none;text-autospace:none'><span lang=SV style='font-size:13.0pt;mso-bidi-font-size:
+  12.0pt;line-height:150%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+  "Arial Unicode MS";color:black;mso-ansi-language:SV;mso-bidi-font-weight:
+  bold'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal style='margin-top:6.0pt;line-height:150%;mso-layout-grid-align:
+  none;text-autospace:none'><span lang=SV style='font-size:13.0pt;mso-bidi-font-size:
+  12.0pt;line-height:150%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+  "Arial Unicode MS";color:black;mso-ansi-language:SV;mso-bidi-font-weight:
+  bold'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:3'>
+  <td width=80 valign=top style='width:60.0pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='margin-top:6.0pt'><span lang=SV style='font-size:
+  13.0pt;mso-bidi-font-size:12.0pt;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Arial Unicode MS";mso-ansi-language:SV'>Tu&#7847;n 3<o:p></o:p></span></p>
+  </td>
+  <td width=256 valign=top style='width:192.0pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;text-align:justify;mso-line-height-alt:
+  10.0pt;mso-layout-grid-align:none;text-autospace:none'><b style='mso-bidi-font-weight:
+  normal'><span lang=SV style='font-size:13.0pt;mso-bidi-font-size:12.0pt;
+  font-family:"Times New Roman",serif;mso-fareast-font-family:"Arial Unicode MS";
+  color:black;letter-spacing:-.5pt;mso-ansi-language:SV'>Ch&#432;&#417;ng 3 : Tr&#7915;u
+  t&#432;&#7907;ng hóa d&#7919; li&#7879;u<o:p></o:p></span></b></p>
+  <p class=MsoNormal style='margin-top:6.0pt;margin-right:-2.85pt;margin-bottom:
+  0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;mso-line-height-alt:
+  10.0pt;mso-layout-grid-align:none;text-autospace:none'><i><span lang=SV
+  style='font-size:13.0pt;mso-bidi-font-size:12.0pt;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Arial Unicode MS";color:black;mso-ansi-language:
+  SV'>1.</span></i><i><span lang=SV style='font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Arial Unicode MS";color:black'> </span></i><i><span
+  style='font-family:"Times New Roman",serif;mso-fareast-font-family:"Arial Unicode MS";
+  color:black'>Bi&#7875;u di&#7877;n d&#7919; li&#7879;u</span></i><i
+  style='mso-bidi-font-style:normal'><span style='font-size:13.0pt;mso-bidi-font-size:
+  12.0pt;font-family:"Times New Roman",serif;mso-fareast-font-family:"Arial Unicode MS";
+  color:black;mso-ansi-language:SV'> <span lang=SV><o:p></o:p></span></span></i></p>
+  <p class=MsoNormal><i><span style='font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Arial Unicode MS";color:black'>2. Ki&#7875;u d&#7919;
+  li&#7879;u c&#417; b&#7843;n<o:p></o:p></span></i></p>
+  <p class=MsoNormal><i><span style='font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Arial Unicode MS";color:black'>3. Ki&#7875;u d&#7919;
+  li&#7879;u có c&#7845;u trúc<o:p></o:p></span></i></p>
+  <p class=MsoNormal><i><span style='font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Arial Unicode MS";color:black'>4. Tr&#7915;u t&#432;&#7907;ng
+  hóa d&#7919; li&#7879;u<o:p></o:p></span></i></p>
+  <p class=MsoNormal><i><span style='font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Arial Unicode MS";color:black'>5. Ví d&#7909;</span></i><span
+  lang=SV style='font-size:13.0pt;mso-bidi-font-size:12.0pt;font-family:"Calibri",sans-serif;
+  mso-fareast-font-family:"Arial Unicode MS";mso-ansi-language:SV'><o:p></o:p></span></p>
+  </td>
+  <td width=168 valign=top style='width:1.75in;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;text-align:justify;mso-layout-grid-align:
+  none;text-autospace:none'><span lang=SV style='font-size:13.0pt;mso-bidi-font-size:
+  12.0pt;font-family:"Times New Roman",serif;mso-fareast-font-family:"Arial Unicode MS";
+  color:black;mso-ansi-language:SV;mso-bidi-font-weight:bold'>Ch&#432;&#417;ng
+  1 <o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-top:6.0pt;text-align:justify;mso-layout-grid-align:
+  none;text-autospace:none'><span lang=SV style='font-size:13.0pt;mso-bidi-font-size:
+  12.0pt;font-family:"Times New Roman",serif;mso-fareast-font-family:"Arial Unicode MS";
+  color:black;mso-ansi-language:SV;mso-bidi-font-weight:bold'>(Giáo trình [1])<o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-top:6.0pt;text-align:justify;mso-layout-grid-align:
+  none;text-autospace:none'><span lang=SV style='font-size:13.0pt;mso-bidi-font-size:
+  12.0pt;font-family:"Times New Roman",serif;mso-fareast-font-family:"Arial Unicode MS";
+  color:black;mso-ansi-language:SV;mso-bidi-font-weight:bold'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal style='margin-top:6.0pt;text-align:justify;mso-layout-grid-align:
+  none;text-autospace:none'><span lang=SV style='font-size:13.0pt;mso-bidi-font-size:
+  12.0pt;font-family:"Times New Roman",serif;mso-fareast-font-family:"Arial Unicode MS";
+  color:black;mso-ansi-language:SV;mso-bidi-font-weight:bold'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal style='margin-top:6.0pt;text-align:justify;mso-layout-grid-align:
+  none;text-autospace:none'><span lang=SV style='font-size:13.0pt;mso-bidi-font-size:
+  12.0pt;font-family:"Times New Roman",serif;mso-fareast-font-family:"Arial Unicode MS";
+  color:black;mso-ansi-language:SV;mso-bidi-font-weight:bold'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=144 valign=top style='width:1.5in;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;line-height:150%;mso-layout-grid-align:
+  none;text-autospace:none'><span lang=SV style='font-size:13.0pt;mso-bidi-font-size:
+  12.0pt;line-height:150%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+  "Arial Unicode MS";color:black;mso-ansi-language:SV;mso-bidi-font-weight:
+  bold'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal style='margin-top:6.0pt;line-height:150%;mso-layout-grid-align:
+  none;text-autospace:none'><span lang=SV style='font-size:13.0pt;mso-bidi-font-size:
+  12.0pt;line-height:150%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+  "Arial Unicode MS";color:black;mso-ansi-language:SV;mso-bidi-font-weight:
+  bold'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:4'>
+  <td width=80 valign=top style='width:60.0pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='margin-top:6.0pt'><span lang=SV style='font-size:
+  13.0pt;mso-bidi-font-size:12.0pt;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Arial Unicode MS";mso-ansi-language:SV'>Tu&#7847;n 4<o:p></o:p></span></p>
+  </td>
+  <td width=256 valign=top style='width:192.0pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;text-align:justify;mso-line-height-alt:
+  10.0pt;mso-layout-grid-align:none;text-autospace:none'><b style='mso-bidi-font-weight:
+  normal'><span lang=SV style='font-size:13.0pt;mso-bidi-font-size:12.0pt;
+  font-family:"Times New Roman",serif;mso-fareast-font-family:"Arial Unicode MS";
+  color:black;letter-spacing:-.5pt;mso-ansi-language:SV'>Ch&#432;&#417;ng 4 : Danh
+  sách tuy&#7871;n tính</span></b><i style='mso-bidi-font-style:normal'><span
+  lang=SV style='font-size:13.0pt;mso-bidi-font-size:12.0pt;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Arial Unicode MS";color:black;mso-ansi-language:
+  SV'><o:p></o:p></span></i></p>
+  <p class=MsoNormal><i><span style='font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Arial Unicode MS";color:black'>1. Khái ni&#7879;m
+  danh sách<o:p></o:p></span></i></p>
+  <p class=MsoNormal><i><span style='font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Arial Unicode MS";color:black'>2. Tr&#7915;u t&#432;&#7907;ng
+  hóa danh sách<o:p></o:p></span></i></p>
+  <p class=MsoNormal><i><span style='font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Arial Unicode MS";color:black'>3. Cài &#273;&#7863;t
+  DS b&#7857;ng m&#7843;ng<o:p></o:p></span></i></p>
+  <p class=MsoNormal><i><span style='font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Arial Unicode MS";color:black'>4. S&#7917; d&#7909;ng
+  m&#7843;ng t&#297;nh<o:p></o:p></span></i></p>
+  <p class=MsoNormal><i><span style='font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Arial Unicode MS";color:black'>5. Ví d&#7909;<o:p></o:p></span></i></p>
+  </td>
+  <td width=168 valign=top style='width:1.75in;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;text-align:justify;mso-layout-grid-align:
+  none;text-autospace:none'><span lang=SV style='font-size:13.0pt;mso-bidi-font-size:
+  12.0pt;font-family:"Times New Roman",serif;mso-fareast-font-family:"Arial Unicode MS";
+  color:black;mso-ansi-language:SV;mso-bidi-font-weight:bold'>Ch&#432;&#417;ng
+  4<o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-top:6.0pt;text-align:justify;mso-layout-grid-align:
+  none;text-autospace:none'><span lang=SV style='font-size:13.0pt;mso-bidi-font-size:
+  12.0pt;font-family:"Times New Roman",serif;mso-fareast-font-family:"Arial Unicode MS";
+  color:black;mso-ansi-language:SV;mso-bidi-font-weight:bold'>(Giáo trình [1])<o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-top:6.0pt;text-align:justify;mso-layout-grid-align:
+  none;text-autospace:none'><span lang=SV style='font-size:13.0pt;mso-bidi-font-size:
+  12.0pt;font-family:"Times New Roman",serif;mso-fareast-font-family:"Arial Unicode MS";
+  color:black;mso-ansi-language:SV;mso-bidi-font-weight:bold'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=144 valign=top style='width:1.5in;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;line-height:150%;mso-layout-grid-align:
+  none;text-autospace:none'><span lang=SV style='font-size:13.0pt;mso-bidi-font-size:
+  12.0pt;line-height:150%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+  "Arial Unicode MS";color:black;mso-ansi-language:SV;mso-bidi-font-weight:
+  bold'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:5'>
+  <td width=80 valign=top style='width:60.0pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='margin-top:6.0pt'><span lang=SV style='font-size:
+  13.0pt;mso-bidi-font-size:12.0pt;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Arial Unicode MS";mso-ansi-language:SV'>Tu&#7847;n 5<o:p></o:p></span></p>
+  </td>
+  <td width=256 valign=top style='width:192.0pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><i><span style='font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Arial Unicode MS";color:black'>6. Th&#432; vi&#7879;n
+  m&#7851;u C++<o:p></o:p></span></i></p>
+  <p class=MsoNormal><i><span style='font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Arial Unicode MS";color:black'>7. Danh sách - c&#7845;p
+  phát &#273;&#7897;ng<o:p></o:p></span></i></p>
+  <p class=MsoNormal><i><span style='font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Arial Unicode MS";color:black'>8. S&#7917; d&#7909;ng
+  m&#7843;ng &#273;&#7897;ng<o:p></o:p></span></i></p>
+  <p class=MsoNormal><i><span style='font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Arial Unicode MS";color:black'>9. Ví d&#7909;<o:p></o:p></span></i></p>
+  </td>
+  <td width=168 valign=top style='width:1.75in;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;text-align:justify;mso-layout-grid-align:
+  none;text-autospace:none'><span lang=SV style='font-size:13.0pt;mso-bidi-font-size:
+  12.0pt;font-family:"Times New Roman",serif;mso-fareast-font-family:"Arial Unicode MS";
+  color:black;mso-ansi-language:SV;mso-bidi-font-weight:bold'>Ch&#432;&#417;ng 4<o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-top:6.0pt;text-align:justify;mso-layout-grid-align:
+  none;text-autospace:none'><span lang=SV style='font-size:13.0pt;mso-bidi-font-size:
+  12.0pt;font-family:"Times New Roman",serif;mso-fareast-font-family:"Arial Unicode MS";
+  color:black;mso-ansi-language:SV;mso-bidi-font-weight:bold'>(Giáo trình [1])<o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-top:6.0pt;text-align:justify;mso-layout-grid-align:
+  none;text-autospace:none'><span lang=SV style='font-size:13.0pt;mso-bidi-font-size:
+  12.0pt;font-family:"Times New Roman",serif;mso-fareast-font-family:"Arial Unicode MS";
+  color:black;mso-ansi-language:SV;mso-bidi-font-weight:bold'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=144 valign=top style='width:1.5in;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;line-height:150%;mso-layout-grid-align:
+  none;text-autospace:none'><span lang=SV style='font-size:13.0pt;mso-bidi-font-size:
+  12.0pt;line-height:150%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+  "Arial Unicode MS";color:black;mso-ansi-language:SV;mso-bidi-font-weight:
+  bold'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:6'>
+  <td width=80 valign=top style='width:60.0pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='margin-top:6.0pt'><span lang=SV style='font-size:
+  13.0pt;mso-bidi-font-size:12.0pt;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Arial Unicode MS";mso-ansi-language:SV'>Tu&#7847;n 6<o:p></o:p></span></p>
+  </td>
+  <td width=256 valign=top style='width:192.0pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;text-align:justify;mso-layout-grid-align:
+  none;text-autospace:none'><b style='mso-bidi-font-weight:normal'><span
+  lang=SV style='font-size:13.0pt;mso-bidi-font-size:12.0pt;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Arial Unicode MS";color:black;letter-spacing:-.5pt;
+  mso-ansi-language:SV'>Ch&#432;&#417;ng 5 : Danh sách liên k&#7871;t</span></b><b
+  style='mso-bidi-font-weight:normal'><span lang=SV style='font-size:13.0pt;
+  mso-bidi-font-size:12.0pt;font-family:"Times New Roman",serif;mso-fareast-font-family:
+  "Arial Unicode MS";color:black;mso-ansi-language:SV'> <o:p></o:p></span></b></p>
+  <p class=MsoNormal><i><span style='font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Arial Unicode MS";color:black'>1. Khái ni&#7879;m nút
+  và con tr&#7887;<o:p></o:p></span></i></p>
+  <p class=MsoNormal><i><span style='font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Arial Unicode MS";color:black'>2. Tr&#7915;u t&#432;&#7907;ng
+  hóa danh sách liên k&#7871;t<o:p></o:p></span></i></p>
+  <p class=MsoNormal><i><span style='font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Arial Unicode MS";color:black'>3. Cài &#273;&#7863;t
+  danh sách b&#7857;ng <span style='mso-spacerun:yes'> </span>DSLK trên C++<o:p></o:p></span></i></p>
+  <p class=MsoNormal><i><span style='font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Arial Unicode MS";color:black'>4. So sánh hai
+  ph&#432;&#417;ng pháp cài &#273;&#7863;t danh sách</span></i><span
+  style='font-size:13.0pt;mso-bidi-font-size:12.0pt;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Arial Unicode MS";color:black'><o:p></o:p></span></p>
+  </td>
+  <td width=168 valign=top style='width:1.75in;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;text-align:justify;mso-layout-grid-align:
+  none;text-autospace:none'><span lang=SV style='font-size:13.0pt;mso-bidi-font-size:
+  12.0pt;font-family:"Times New Roman",serif;mso-fareast-font-family:"Arial Unicode MS";
+  color:black;mso-ansi-language:SV;mso-bidi-font-weight:bold'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal style='margin-top:6.0pt;text-align:justify;mso-layout-grid-align:
+  none;text-autospace:none'><span lang=SV style='font-size:13.0pt;mso-bidi-font-size:
+  12.0pt;font-family:"Times New Roman",serif;mso-fareast-font-family:"Arial Unicode MS";
+  color:black;mso-ansi-language:SV;mso-bidi-font-weight:bold'>Ch&#432;&#417;ng 5<o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-top:6.0pt;text-align:justify;mso-layout-grid-align:
+  none;text-autospace:none'><span lang=SV style='font-size:13.0pt;mso-bidi-font-size:
+  12.0pt;font-family:"Times New Roman",serif;mso-fareast-font-family:"Arial Unicode MS";
+  color:black;mso-ansi-language:SV;mso-bidi-font-weight:bold'>(Giáo trình [1])<o:p></o:p></span></p>
+  </td>
+  <td width=144 valign=top style='width:1.5in;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;line-height:150%;mso-layout-grid-align:
+  none;text-autospace:none'><span lang=SV style='font-size:13.0pt;mso-bidi-font-size:
+  12.0pt;line-height:150%;font-family:"Times New Roman",serif;mso-fareast-font-family:
+  "Arial Unicode MS";color:black;mso-ansi-language:SV;mso-bidi-font-weight:
+  bold'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:7'>
+  <td width=80 valign=top style='width:60.0pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='margin-top:6.0pt'><span lang=SV style='font-size:
+  13.0pt;mso-bidi-font-size:12.0pt;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Arial Unicode MS";mso-ansi-language:SV'>Tu&#7847;n 7<o:p></o:p></span></p>
+  </td>
+  <td width=256 valign=top style='width:192.0pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;text-align:justify;mso-layout-grid-align:
+  none;text-autospace:none'><b style='mso-bidi-font-weight:normal'><span
+  lang=SV style='font-size:13.0pt;mso-bidi-font-size:12.0pt;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Arial Unicode MS";color:black;letter-spacing:-.5pt;
+  mso-ansi-language:SV'>Ch&#432;&#417;ng 6 : Ng&#259;n x&#7871;p</span></b><b
+  style='mso-bidi-font-weight:normal'><span lang=SV style='font-size:13.0pt;
+  mso-bidi-font-size:12.0pt;font-family:"Times New Roman",serif;mso-fareast-font-family:
+  "Arial Unicode MS";color:black;mso-ansi-language:SV'> <o:p></o:p></span></b></p>
+  <p class=MsoNormal><i><span style='font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Arial Unicode MS";color:black'>1. Khái ni&#7879;m ng&#259;n
+  x&#7871;p<o:p></o:p></span></i></p>
+  <p class=MsoNormal><i><span style='font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Arial Unicode MS";color:black'>2. Tr&#7915;u t&#432;&#7907;ng
+  hóa ng&#259;n x&#7871;p<o:p></o:p></span></i></p>
+  <p class=MsoNormal><i><span style='font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Arial Unicode MS";color:black'>3. Cài &#273;&#7863;t
+  ng&#259;n x&#7871;p b&#7857;ng m&#7843;ng<o:p></o:p></span></i></p>
+  <p class=MsoNormal><i><span style='font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Arial Unicode MS";color:black'>4. Cài &#273;&#7863;t
+  ng&#259;n x&#7871;p b&#7857;ng DSLK<o:p></o:p></span></i></p>
+  <p class=MsoNormal><i><span style='font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Arial Unicode MS";color:black'>5. Ví d&#7909;</span></i><span
+  style='font-size:13.0pt;mso-bidi-font-size:12.0pt;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Arial Unicode MS";color:black'><o:p></o:p></span></p>
+  </td>
+  <td width=168 valign=top style='width:1.75in;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;text-align:justify;mso-layout-grid-align:
+  none;text-autospace:none'><span style='font-size:13.0pt;mso-bidi-font-size:
+  12.0pt;font-family:"Times New Roman",serif;mso-fareast-font-family:"Arial Unicode MS";
+  color:black;mso-bidi-font-weight:bold'>Ch&#432;&#417;ng 6<o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-top:6.0pt;text-align:justify;mso-layout-grid-align:
+  none;text-autospace:none'><span style='font-size:13.0pt;mso-bidi-font-size:
+  12.0pt;font-family:"Times New Roman",serif;mso-fareast-font-family:"Arial Unicode MS";
+  color:black;mso-bidi-font-weight:bold'>(Giáo trình [1])<o:p></o:p></span></p>
+  </td>
+  <td width=144 valign=top style='width:1.5in;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='text-align:justify;mso-layout-grid-align:none;
+  text-autospace:none'><span lang=SV style='font-size:13.0pt;mso-bidi-font-size:
+  12.0pt;font-family:"Times New Roman",serif;mso-fareast-font-family:"Arial Unicode MS";
+  color:black;mso-ansi-language:SV'>- Ki&#7875;m tra <o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:8'>
+  <td width=80 valign=top style='width:60.0pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='margin-top:6.0pt'><span lang=SV style='font-size:
+  13.0pt;mso-bidi-font-size:12.0pt;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Arial Unicode MS";mso-ansi-language:SV'>Tu&#7847;n 8<o:p></o:p></span></p>
+  </td>
+  <td width=256 valign=top style='width:192.0pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;text-align:justify;mso-layout-grid-align:
+  none;text-autospace:none'><b style='mso-bidi-font-weight:normal'><span
+  lang=SV style='font-size:13.0pt;mso-bidi-font-size:12.0pt;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Arial Unicode MS";color:black;letter-spacing:-.5pt;
+  mso-ansi-language:SV'>Ch&#432;&#417;ng 7 : Hàng &#273;&#7907;i</span></b><b
+  style='mso-bidi-font-weight:normal'><span lang=SV style='font-size:13.0pt;
+  mso-bidi-font-size:12.0pt;font-family:"Times New Roman",serif;mso-fareast-font-family:
+  "Arial Unicode MS";color:black;mso-ansi-language:SV'> <o:p></o:p></span></b></p>
+  <p class=MsoNormal><i><span style='font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Arial Unicode MS";color:black'>1. Khái ni&#7879;m hàng
+  &#273;&#7907;i<o:p></o:p></span></i></p>
+  <p class=MsoNormal><i><span style='font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Arial Unicode MS";color:black'>2. Tr&#7915;u t&#432;&#7907;ng
+  hóa hàng &#273;&#7907;i<o:p></o:p></span></i></p>
+  <p class=MsoNormal><i><span style='font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Arial Unicode MS";color:black'>3. Cài &#273;&#7863;t
+  hàng &#273;&#7907;i b&#7857;ng m&#7843;ng<o:p></o:p></span></i></p>
+  <p class=MsoNormal><i><span style='font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Arial Unicode MS";color:black'>4. Cài &#273;&#7863;t
+  hàng &#273;&#7907;i b&#7857;ng DSLK<o:p></o:p></span></i></p>
+  <p class=MsoNormal><i><span style='font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Arial Unicode MS";color:black'>5. Ví d&#7909; <o:p></o:p></span></i></p>
+  </td>
+  <td width=168 valign=top style='width:1.75in;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;text-align:justify;mso-layout-grid-align:
+  none;text-autospace:none'><span lang=SV style='font-size:13.0pt;mso-bidi-font-size:
+  12.0pt;font-family:"Times New Roman",serif;mso-fareast-font-family:"Arial Unicode MS";
+  color:black;mso-ansi-language:SV;mso-bidi-font-weight:bold'>Ch&#432;&#417;ng
+  7<o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-top:6.0pt;text-align:justify;mso-layout-grid-align:
+  none;text-autospace:none'><span lang=SV style='font-size:13.0pt;mso-bidi-font-size:
+  12.0pt;font-family:"Times New Roman",serif;mso-fareast-font-family:"Arial Unicode MS";
+  color:black;mso-ansi-language:SV;mso-bidi-font-weight:bold'>(Giáo trình [1])<o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-top:6.0pt;text-align:justify;mso-layout-grid-align:
+  none;text-autospace:none'><span lang=SV style='font-size:13.0pt;mso-bidi-font-size:
+  12.0pt;font-family:"Times New Roman",serif;mso-fareast-font-family:"Arial Unicode MS";
+  color:black;mso-ansi-language:SV;mso-bidi-font-weight:bold'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=144 valign=top style='width:1.5in;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;text-align:justify;mso-layout-grid-align:
+  none;text-autospace:none'><span lang=SV style='font-size:13.0pt;mso-bidi-font-size:
+  12.0pt;font-family:"Times New Roman",serif;mso-fareast-font-family:"Arial Unicode MS";
+  color:black;mso-ansi-language:SV'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:9'>
+  <td width=80 valign=top style='width:60.0pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='margin-top:6.0pt'><span lang=SV style='font-size:
+  13.0pt;mso-bidi-font-size:12.0pt;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Arial Unicode MS";mso-ansi-language:SV'>Tu&#7847;n 9<o:p></o:p></span></p>
+  </td>
+  <td width=256 valign=top style='width:192.0pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;text-align:justify;mso-layout-grid-align:
+  none;text-autospace:none'><b style='mso-bidi-font-weight:normal'><span
+  lang=SV style='font-size:13.0pt;mso-bidi-font-size:12.0pt;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Arial Unicode MS";color:black;letter-spacing:-.5pt;
+  mso-ansi-language:SV'>Ch&#432;&#417;ng 8 : Cây</span></b><b style='mso-bidi-font-weight:
+  normal'><span lang=SV style='font-size:13.0pt;mso-bidi-font-size:12.0pt;
+  font-family:"Times New Roman",serif;mso-fareast-font-family:"Arial Unicode MS";
+  color:black;mso-ansi-language:SV'> <o:p></o:p></span></b></p>
+  <p class=MsoNormal><i><span style='font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Arial Unicode MS";color:black'>1. Khái ni&#7879;m cây<o:p></o:p></span></i></p>
+  <p class=MsoNormal><i><span style='font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Arial Unicode MS";color:black'>2. Tr&#7915;u t&#432;&#7907;ng
+  hóa cây<o:p></o:p></span></i></p>
+  <p class=MsoNormal><i><span style='font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Arial Unicode MS";color:black'>3. Cây nh&#7883; phân<o:p></o:p></span></i></p>
+  <p class=MsoNormal><i><span style='font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Arial Unicode MS";color:black'>4. Cây bi&#7875;u th&#7913;c<o:p></o:p></span></i></p>
+  <p class=MsoNormal><i><span style='font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Arial Unicode MS";color:black'>5<span
+  style='mso-spacerun:yes'>  </span>Cài &#273;&#7863;t cây nh&#7883; phân b&#7857;ng
+  DSLK<o:p></o:p></span></i></p>
+  <p class=MsoNormal><i><span style='font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Arial Unicode MS";color:black'>6. Ví d&#7909;</span></i><span
+  lang=SV style='font-size:13.0pt;mso-bidi-font-size:12.0pt;font-family:TimesNewRoman+2+1;
+  mso-fareast-font-family:"Arial Unicode MS";mso-bidi-font-family:TimesNewRoman+2+1;
+  color:black;mso-ansi-language:SV'><o:p></o:p></span></p>
+  </td>
+  <td width=168 valign=top style='width:1.75in;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;text-align:justify;mso-layout-grid-align:
+  none;text-autospace:none'><span lang=SV style='font-size:13.0pt;mso-bidi-font-size:
+  12.0pt;font-family:"Times New Roman",serif;mso-fareast-font-family:"Arial Unicode MS";
+  color:black;mso-ansi-language:SV;mso-bidi-font-weight:bold'>Ch&#432;&#417;ng
+  8<o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-top:6.0pt;text-align:justify;mso-layout-grid-align:
+  none;text-autospace:none'><span lang=SV style='font-size:13.0pt;mso-bidi-font-size:
+  12.0pt;font-family:"Times New Roman",serif;mso-fareast-font-family:"Arial Unicode MS";
+  color:black;mso-ansi-language:SV;mso-bidi-font-weight:bold'>(Giáo trình [1])<o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-top:6.0pt;mso-layout-grid-align:none;
+  text-autospace:none'><span lang=SV style='font-size:13.0pt;mso-bidi-font-size:
+  12.0pt;font-family:"Times New Roman",serif;mso-fareast-font-family:"Arial Unicode MS";
+  color:black;mso-ansi-language:SV;mso-bidi-font-weight:bold'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=144 valign=top style='width:1.5in;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;text-align:justify;mso-layout-grid-align:
+  none;text-autospace:none'><span lang=SV style='font-size:13.0pt;mso-bidi-font-size:
+  12.0pt;font-family:"Times New Roman",serif;mso-fareast-font-family:"Arial Unicode MS";
+  color:black;mso-ansi-language:SV'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:10'>
+  <td width=80 valign=top style='width:60.0pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='margin-top:6.0pt'><span lang=SV style='font-size:
+  13.0pt;mso-bidi-font-size:12.0pt;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Arial Unicode MS";mso-ansi-language:SV'>Tu&#7847;n
+  10<o:p></o:p></span></p>
+  </td>
+  <td width=256 valign=top style='width:192.0pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;text-align:justify;mso-layout-grid-align:
+  none;text-autospace:none'><b style='mso-bidi-font-weight:normal'><span
+  lang=SV style='font-size:13.0pt;mso-bidi-font-size:12.0pt;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Arial Unicode MS";color:black;letter-spacing:-.5pt;
+  mso-ansi-language:SV'>Ch&#432;&#417;ng 9 : Gi&#7843;i thu&#7853;t s&#7855;p x&#7871;p</span></b><b
+  style='mso-bidi-font-weight:normal'><span lang=SV style='font-size:13.0pt;
+  mso-bidi-font-size:12.0pt;font-family:"Times New Roman",serif;mso-fareast-font-family:
+  "Arial Unicode MS";color:black;mso-ansi-language:SV'> <o:p></o:p></span></b></p>
+  <p class=MsoNormal><i><span style='font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Arial Unicode MS";color:black'>1. Khái ni&#7879;m s&#7855;p
+  x&#7871;p<o:p></o:p></span></i></p>
+  <p class=MsoNormal><i><span style='font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Arial Unicode MS";color:black'>2. S&#7855;p x&#7871;p
+  l&#7921;a ch&#7885;n<o:p></o:p></span></i></p>
+  <p class=MsoNormal><i><span style='font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Arial Unicode MS";color:black'>3. S&#7855;p x&#7871;p
+  xen vào<o:p></o:p></span></i></p>
+  <p class=MsoNormal><i><span style='font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Arial Unicode MS";color:black'>4. S&#7855;p x&#7871;p
+  n&#7893;i b&#7885;t<o:p></o:p></span></i></p>
+  <p class=MsoNormal><i><span style='font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Arial Unicode MS";color:black'>5<span
+  style='mso-spacerun:yes'>  </span>S&#7855;p x&#7871;p nhanh</span></i><span
+  lang=SV style='font-size:13.0pt;mso-bidi-font-size:12.0pt;font-family:TimesNewRoman+2+1;
+  mso-fareast-font-family:"Arial Unicode MS";mso-bidi-font-family:TimesNewRoman+2+1;
+  color:black;mso-ansi-language:SV'><o:p></o:p></span></p>
+  </td>
+  <td width=168 valign=top style='width:1.75in;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;text-align:justify;mso-layout-grid-align:
+  none;text-autospace:none'><span lang=SV style='font-size:13.0pt;mso-bidi-font-size:
+  12.0pt;font-family:"Times New Roman",serif;mso-fareast-font-family:"Arial Unicode MS";
+  color:black;mso-ansi-language:SV;mso-bidi-font-weight:bold'>Ch&#432;&#417;ng 17<o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-top:6.0pt;text-align:justify;mso-layout-grid-align:
+  none;text-autospace:none'><span lang=SV style='font-size:13.0pt;mso-bidi-font-size:
+  12.0pt;font-family:"Times New Roman",serif;mso-fareast-font-family:"Arial Unicode MS";
+  color:black;mso-ansi-language:SV;mso-bidi-font-weight:bold'>(Giáo trình [1])<o:p></o:p></span></p>
+  </td>
+  <td width=144 valign=top style='width:1.5in;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;text-align:justify;mso-layout-grid-align:
+  none;text-autospace:none'><span lang=SV style='font-size:13.0pt;mso-bidi-font-size:
+  12.0pt;font-family:"Times New Roman",serif;mso-fareast-font-family:"Arial Unicode MS";
+  color:black;mso-ansi-language:SV'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:11'>
+  <td width=80 valign=top style='width:60.0pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='margin-top:6.0pt'><span lang=SV style='font-size:
+  13.0pt;mso-bidi-font-size:12.0pt;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Arial Unicode MS";mso-ansi-language:SV'>Tu&#7847;n 11<o:p></o:p></span></p>
+  </td>
+  <td width=256 valign=top style='width:192.0pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;text-align:justify;mso-layout-grid-align:
+  none;text-autospace:none'><b style='mso-bidi-font-weight:normal'><span
+  lang=SV style='font-size:13.0pt;mso-bidi-font-size:12.0pt;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Arial Unicode MS";color:black;letter-spacing:-.5pt;
+  mso-ansi-language:SV'>Ch&#432;&#417;ng 10 : &#272;&#7891; th&#7883;</span></b><b
+  style='mso-bidi-font-weight:normal'><span lang=SV style='font-size:13.0pt;
+  mso-bidi-font-size:12.0pt;font-family:"Times New Roman",serif;mso-fareast-font-family:
+  "Arial Unicode MS";color:black;mso-ansi-language:SV'> <o:p></o:p></span></b></p>
+  <p class=MsoNormal><i><span style='font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Arial Unicode MS";color:black'>1. Khái ni&#7879;m d&#7891;
+  th&#7883;<o:p></o:p></span></i></p>
+  <p class=MsoNormal><i><span style='font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Arial Unicode MS";color:black'>2. Bi&#7875;u di&#7877;n
+  &#273;&#7891; th&#7883;<o:p></o:p></span></i></p>
+  <p class=MsoNormal><i><span style='font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Arial Unicode MS";color:black'>3. Duy&#7879;t &#273;&#7891;
+  th&#7883;<o:p></o:p></span></i></p>
+  <p class=MsoNormal><i><span style='font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Arial Unicode MS";color:black'>4. &#272;&#432;&#7901;ng
+  &#273;i ng&#7855;n nh&#7845;t</span></i><span lang=SV style='font-size:13.0pt;
+  mso-bidi-font-size:12.0pt;font-family:TimesNewRoman+2+1;mso-fareast-font-family:
+  "Arial Unicode MS";mso-bidi-font-family:TimesNewRoman+2+1;color:black;
+  mso-ansi-language:SV'><o:p></o:p></span></p>
+  </td>
+  <td width=168 valign=top style='width:1.75in;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;text-align:justify;mso-layout-grid-align:
+  none;text-autospace:none'><span lang=SV style='font-size:13.0pt;mso-bidi-font-size:
+  12.0pt;font-family:"Times New Roman",serif;mso-fareast-font-family:"Arial Unicode MS";
+  color:black;mso-ansi-language:SV;mso-bidi-font-weight:bold'>Ch&#432;&#417;ng 18<o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-top:6.0pt;text-align:justify;mso-layout-grid-align:
+  none;text-autospace:none'><span lang=SV style='font-size:13.0pt;mso-bidi-font-size:
+  12.0pt;font-family:"Times New Roman",serif;mso-fareast-font-family:"Arial Unicode MS";
+  color:black;mso-ansi-language:SV;mso-bidi-font-weight:bold'>(Giáo trình [1])<o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-top:6.0pt;text-align:justify;mso-layout-grid-align:
+  none;text-autospace:none'><span lang=SV style='font-size:13.0pt;mso-bidi-font-size:
+  12.0pt;font-family:"Times New Roman",serif;mso-fareast-font-family:"Arial Unicode MS";
+  color:black;mso-ansi-language:SV;mso-bidi-font-weight:bold'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=144 valign=top style='width:1.5in;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;text-align:justify;mso-layout-grid-align:
+  none;text-autospace:none'><span style='font-size:13.0pt;mso-bidi-font-size:
+  12.0pt;font-family:"Times New Roman",serif;mso-fareast-font-family:"Arial Unicode MS";
+  color:black'>- Ki&#7875;m tra </span><span lang=SV style='font-size:13.0pt;
+  mso-bidi-font-size:12.0pt;font-family:"Times New Roman",serif;mso-fareast-font-family:
+  "Arial Unicode MS";color:black;mso-ansi-language:SV'><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:12;mso-yfti-lastrow:yes'>
+  <td width=80 valign=top style='width:60.0pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='margin-top:6.0pt'><span style='font-size:13.0pt;
+  mso-bidi-font-size:12.0pt;font-family:"Times New Roman",serif;mso-fareast-font-family:
+  "Arial Unicode MS"'>Tu&#7847;n 12<o:p></o:p></span></p>
+  </td>
+  <td width=256 valign=top style='width:192.0pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;text-align:justify;mso-layout-grid-align:
+  none;text-autospace:none'><span style='font-size:13.0pt;mso-bidi-font-size:
+  12.0pt;font-family:"Times New Roman",serif;mso-fareast-font-family:"Arial Unicode MS";
+  color:black'>- H&#7879; th&#7889;ng ki&#7871;n th&#7913;c ch&#432;&#417;ng trình<o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-top:6.0pt;text-align:justify;mso-layout-grid-align:
+  none;text-autospace:none'><span style='font-size:13.0pt;mso-bidi-font-size:
+  12.0pt;font-family:"Times New Roman",serif;mso-fareast-font-family:"Arial Unicode MS";
+  color:black'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=168 valign=top style='width:1.75in;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;text-align:justify;mso-layout-grid-align:
+  none;text-autospace:none'><span style='font-size:13.0pt;mso-bidi-font-size:
+  12.0pt;font-family:"Times New Roman",serif;mso-fareast-font-family:"Arial Unicode MS";
+  color:black;mso-bidi-font-weight:bold'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=144 valign=top style='width:1.5in;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;text-align:justify;mso-layout-grid-align:
+  none;text-autospace:none'><span style='font-size:13.0pt;mso-bidi-font-size:
+  12.0pt;font-family:"Times New Roman",serif;mso-fareast-font-family:"Arial Unicode MS";
+  color:black'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+</table>
+
+</div>  
+</p>
+<h3>
+<a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span class="octicon octicon-link"></span></a>Điểm danh</h3>
+<p>Điểm danh lớp CNTT-0801
+Tải về: <a href="https://www.dropbox.com/s/ep3qc4o3r2bh1tg/CNTT0801.xls?dl=0"> tại đây.</a>
+</p>
+<p>Điểm danh lớp CNTT-0802 
+Tải về: <a href="https://www.dropbox.com/s/d6sgbvb3a8oker5/CNTT0802.xls?dl=0"> tại đây.</a>
+</p>
+<h3>
+<a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span class="octicon octicon-link"></span></a>Kết quả Kiểm tra</h3>
+<p>Kết quả Kiểm tra lớp CNTT-0801
+Tải về: <a href="https://www.dropbox.com/s/ssp8ogpvbpnfc0i/CNTT%200801.xls?dl=0"> tại đây.</a>
+</p>
+<p>Kết quả Kiểm tra lớp CNTT-0802 
+Tải về: <a href="https://www.dropbox.com/s/b8w1pohxlsx2hah/CNTT0802.xls?dl=0"> tại đây.</a>
+</p>
+
+<p>Sẽ đưa ra thêm trong quá trình học với yêu cầu cho sinh viên  tại lớp học.</p>
+
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
